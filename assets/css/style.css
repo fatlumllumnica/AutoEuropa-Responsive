@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'img-text';
+    src: url("/assets/fonts/Prototype.ttf");
+}
+
+header {
+    border: 1px solid rgba(153,153,153,0.8) ;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'img-text';
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    background-color:rgb(166, 59, 59);
+    margin-top: 40px;
+    box-shadow: -5px -5px 20px rgb(229, 224, 224), 5px 5px 20px rgb(229, 224, 224);
+    }
+
+header .wrapper nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+header .wrapper ul li, .wrapper a {
+    list-style-type: none;  
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+}
+header .wrapper .b2b {
+    margin-right: 50px;
+}
+header .wrapper .logo {
+    margin-left: 50px;
+}
+
+
+
+.img-container {
+    display: flex;
+    background: linear-gradient(to top,rgba(255, 255, 255, 0), rgb(255, 255, 255, 0.2), rgb(255, 255, 255, 0.3), rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.5)),
+    url("/assets/images/main\ photo.jpg");
+    /* background-image: url("/assets/images/main\ photo.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    height: 800px;
+}
+h3 {
+    font-family: 'img-text';
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px rgb(60, 34, 34);
+    margin: 10px 0px 5px 0px;
+}
+
+
+
+.categories {
+    display: flex;
+    border: 1px solid red;
+    color: black;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.autoparts, .oils, .batteries {
+    /* border: 0px solid black; */
+    height: 180px;
+    width: 27%;
+    box-shadow: 2px 0px 15px grey, -2px 0px 15px grey;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.autoparts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.autoparts a {
+    position: absolute;
+    z-index: 1;
+}
+
+.autoparts img {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+
+.oils {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oils a {
+    position: absolute;
+    z-index: 1;
+}
+
+.oils img {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+
+.batteries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.batteries a {
+    position: absolute;
+    z-index: 1;
+}
+
+.batteries img {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+
+.categories img {
+    border-radius: 15px;
+    transition: 0.5s all ease-in-out
+}
+.categories img:hover {
+    transform: scale(1.2);    
+}
+.categories a {
+    align-self: flex-end;
+    height: 25px;
+    width: 10%;
+    text-align: center;
+    margin-bottom: -10px;
+    padding-top:3px;
+    padding: 4px 0 5px 0;
+    background-color: rgb(166, 59, 59);
+    opacity: 0.9;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 10px rgb(166, 59, 59); */
+    color: white;
+    text-decoration: none;
+}
