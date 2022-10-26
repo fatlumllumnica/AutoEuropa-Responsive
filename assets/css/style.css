@@ -99,10 +99,12 @@ h3 {
     display: flex;
     border: 1px solid red;
     color: black;
-    height: 300px;
+    height: 600px;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
 }
 #categories .container div {
     /* border: 0px solid black; */
@@ -172,5 +174,58 @@ h3 {
     width: 100%;
     position: relative;
 }
+
+.container .brakes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .brakes img {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+
+.container .filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .filters img {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+
+.container .tires {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .tires img {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+
+#aboutus .container {
+    background-image: url('/assets/images/about-img.jpg');
+    width: 100%;
+    background-size: cover;
+    height: 563px;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(); */
+}
+#aboutus .container .about h3{
+    color: white;
+    font-family: "img-text";
+    font-size: 20px;
+}
+#aboutus .container .about {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+
 
 
