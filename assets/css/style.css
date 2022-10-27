@@ -123,6 +123,7 @@ h3:hover{
 }
 #categories .container div:hover{
     border: 2px solid var(--primary-color);
+    transition-duration: 0.1s;
 }
 #categories .container .ab {
     align-self: flex-end;
@@ -150,7 +151,8 @@ h3:hover{
     transition: 0.5s all ease-in-out;
 }
 #categories .container img:hover {
-    transform: scale(1.2);    
+    transform: scale(1.2);
+    transition-duration: 0.8s;    
 }
 
 .container .autoparts {
@@ -246,6 +248,7 @@ h3:hover{
 
 #intro .container .introus:hover {
     border: 3px solid var(--primary-color);
+    transition-duration: 0.2s;
 }
 
 #intro .container .introus span {
@@ -268,13 +271,47 @@ h3:hover{
     padding-bottom: 25px;
 }
 
-#footer {
-    height: 400px;
+
+#footer .container {
+    display: flex;
+    height: 300px;
     background-color: var(--primary-color);
-    opacity: 0.97;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
-#footer {
-    
+
+#footer .logo img {
+    width:150px;
+    border-radius: 50%;
+    height: 100px;
+    box-shadow: -5px -5px 60px black, 5px 5px 60px black;
+    margin-right: 10px;
+}
+#footer .address {
+    height: 190px;
+    border-left: 5px solid white;
+    border-bottom-left-radius: 8%;
+    padding-left: 25px;
+    color: white;
+}
+#footer .address ul li, a, h2 {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+#footer .links ul li, a, h2{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#footer .links {
+    height: 190px;
+    border-left: 5px solid white;
+    padding-left: 25px;
+    border-bottom-left-radius: 8%;
 }
 
 
