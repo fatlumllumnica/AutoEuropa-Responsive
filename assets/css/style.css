@@ -49,6 +49,7 @@ header .wrapper .logo img{
     border-radius: 50%;
     transition: 0.5s all ease-in-out;
 }
+
 header .wrapper .logo img:hover{
     transform: scale(1.2);
 }
@@ -56,6 +57,11 @@ header .wrapper .logo img:hover{
 header .wrapper nav ul {
     display: flex;
     gap: 50px;
+}
+header .wrapper nav ul li a:hover{
+    border-bottom: 3px solid white;
+    text-shadow: 0px -5px 12px black;
+    transition-duration: 0.3s;
 }
 
 header .wrapper ul li, .wrapper a {
@@ -66,6 +72,11 @@ header .wrapper ul li, .wrapper a {
 }
 header .wrapper .b2b {
     margin-right: 50px;
+}
+header .wrapper .b2b a:hover{
+    border-bottom: 3px solid white;
+    text-shadow: 0px -5px 10px black;
+    transition-duration: 0.3s;
 }
 header .wrapper .logo {
     margin-left: 50px;
@@ -141,6 +152,11 @@ h3:hover{
     text-decoration: none;
     position: absolute;
     z-index: 1;
+}
+#categories .container .ab:hover {
+    opacity: 1;
+    box-shadow: 2px 0px 15px grey, -2px 0px 15px grey;
+    transition-duration: 0.1s;
 }
 
 #categories .container .abc {
@@ -274,6 +290,7 @@ h3:hover{
 
 #footer .container {
     display: flex;
+    flex-wrap: wrap;
     height: 300px;
     background-color: var(--primary-color);
     justify-content: center;
@@ -312,6 +329,19 @@ h3:hover{
     border-left: 5px solid white;
     padding-left: 25px;
     border-bottom-left-radius: 8%;
+}
+#footer h2 {
+    border-bottom: 2px solid white;
+}
+
+.copyright {
+    text-align: center;
+    height: 45px;
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    opacity: 0.9;
 }
 
 
