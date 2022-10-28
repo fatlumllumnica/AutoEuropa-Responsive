@@ -119,6 +119,9 @@ header .wrapper .logo {
     transition-duration: 0.5s;
 }
 
+.img-container h3 i{
+    color: var(--primary-color);
+}
 #categories .container {
     display: flex;
     /* border: 1px solid red;    */
@@ -455,6 +458,7 @@ header .wrapper .logo {
 .go-home i:hover{
     font-size: 25px;
     transition-duration: 0.3s;
+    color: var(--primary-color);
 }
 
 
