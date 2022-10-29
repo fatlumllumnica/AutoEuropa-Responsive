@@ -77,6 +77,8 @@ header .wrapper ul li, .wrapper a {
     color: white;
     letter-spacing: 3px;
 }
+
+
 header .wrapper .b2b {
     margin-right: 50px;
 }
@@ -121,6 +123,32 @@ header .wrapper .logo {
 
 .img-container h3 i{
     color: var(--primary-color);
+}
+ /* -------------- icons animations --------------- */
+h3 i {         
+    font-size:30px;
+    color: rgb(23, 102, 176);
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes shake {
+    0%, {
+    transform: translate3d(-5px, 0px, 0px);
+    }
+    10%,{
+        transform: translate3d(-15px, 0px, 0px);
+        }
+    20%, {
+    transform: translate3d(-35px, 0px, 0);
+    }
+    30%, {
+    transform: translate3d(-30px, 0, 0);
+    }
+    40% {
+    transform: translate3d(-40px, 0, 0);
+    }
 }
 
 
@@ -541,7 +569,7 @@ header .wrapper .logo {
     header .wrapper nav i {
         display: none;
     }
-    header .wrapper nav ul li a:hover{
+    header .wrapper nav ul li a:hover {
         border-bottom: 3px solid white;
         text-shadow: 0px -5px 12px black;
         transition-duration: 0.3s;
@@ -939,12 +967,12 @@ header .wrapper .logo {
         background-color: black;
         opacity: 0.9;
         word-spacing: 4px;
-        margin-bottom: 190px;
+        margin-bottom: 250px;
     }
     
     .go-home {
         position: fixed;
-        bottom: 200px;
+        bottom: 260px;
         right: 40px;
     }
     .go-home i {
