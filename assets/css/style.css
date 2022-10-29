@@ -554,7 +554,7 @@ transform: scale(1.2);
         flex-wrap: wrap;
         /* border: 1px solid green; */
         width: 98%;
-        height: 17%;
+        height: 18%;
         font-size: 13px;
         position: fixed;
         z-index: 2;
@@ -978,6 +978,20 @@ transform: scale(1.2);
         font-size: 25px;
         transition-duration: 0.3s;
         color: var(--primary-color);
+    }
+
+    .b2b-login-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        width: 80%;
+        height: 500px;
+        margin-top: 100px;
+        background-color: var(--primary-color);
+        box-shadow: 10px 10px 10px grey;
+        border-radius: 10px;
+        margin-bottom: 100px;
     }
 
 }
