@@ -123,16 +123,16 @@ h3 i {
 }
 
 @keyframes shake {
-    0%, {
+    0% {
     transform: translate3d(-5px, 0px, 0px);
     }
-    10%,{
+    10% {
         transform: translate3d(-15px, 0px, 0px);
         }
-    20%, {
+    20% {
     transform: translate3d(-35px, 0px, 0);
     }
-    30%, {
+    30% {
     transform: translate3d(-30px, 0, 0);
     }
     40% {
@@ -462,6 +462,74 @@ h3 i {
     transition-duration: 0.3s;
     color: var(--primary-color);
 }
+
+.b2b-login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: var(--primary-color);
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+.b2b-login-form p a{
+    color: black;
+}
+.b2b-login-form form {
+    text-align: center;
+}
+.b2b-login-form label {
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+.b2b-login-form input {
+    height: 40px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.b2b-login-form ::placeholder {
+    padding: 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.b2b-login-form input[type=reset]{
+    width: 70px;
+    height: 40px;
+    font-weight: bold;
+}
+.b2b-login-form input[type=reset]:hover{
+transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+.b2b-login-form button {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    padding:10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.b2b-login-form button:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+.b2b-login-form i {
+    font-size: 20px;
+    padding-right: 10px;
+    color: rgb(167, 207, 88);
+}
+.b2b-login-form p i {
+    margin-top: 20px;
+    color: blue;
+    font-size: 30px;
+}
+
+
 
 /*--------------- M O B I L E   V I E W -------------*/
 
