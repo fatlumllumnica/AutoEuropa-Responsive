@@ -319,6 +319,7 @@ h3 i {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: 5px solid white;
 }
 #services .container {
     width: 100%;
@@ -377,7 +378,6 @@ h3 i {
     display: flex;
     flex-wrap: wrap;
     height: 300px;
-    border-top: 20px solid white;
     background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
@@ -890,6 +890,7 @@ transform: scale(1.2);
         font-family:'img-text';
         font-size: 30px;
     }
+    
 
     #footer .container {
         display: flex;
