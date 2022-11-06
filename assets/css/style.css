@@ -568,6 +568,7 @@ transform: scale(1.2);
         border-radius: 50%;
         width: 30%;
         margin: auto;     /* EDITED*/
+        
     }
     header .wrapper .logo img{
         width: 100%;
@@ -575,6 +576,7 @@ transform: scale(1.2);
         border-radius: 50%;
         transition: 0.5s all ease-in-out;
         margin-right: 0px;
+        
 
     }
     header .wrapper .logo img:hover{
@@ -592,6 +594,7 @@ transform: scale(1.2);
         /* margin: 0px; */
         /* padding: 0px; */
         padding-bottom: 10px;
+        
     }
     header .wrapper nav ul li a {
         /* margin: 0px; */
